@@ -2,6 +2,9 @@ const defaultState = {
     books: [],
     loading: false,
     error: false,
+    cardites: [{
+        
+    }]
 }
 
 const reducer = (state=defaultState, action) => {
